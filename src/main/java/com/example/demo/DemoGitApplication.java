@@ -10,7 +10,7 @@ public class DemoGitApplication {
 	
 	@GetMapping("/home")
 	public String showMessage() {
-		return "Welcome to spring boot. This is just for demo purpose";
+		return "Welcome to spring boot. This is just for demo purpose. This extra text is for new branch";
 	}
 
 	public static void main(String[] args) {
